@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/GBDev13.png',
     alt: 'GB Dev',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta
 
 export const Primary: StoryObj<AvatarProps> = {}
